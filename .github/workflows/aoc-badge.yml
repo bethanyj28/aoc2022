@@ -11,10 +11,10 @@ jobs:
       - uses: actions/checkout@v2                # clones your repo
       - uses: joblo2213/aoc-badges-action@v3
         with:
-          userid: 1552732                          # your user id, see setup on how to obtain
+          userid: 417093                          # your user id, see setup on how to obtain
           session: ${{ secrets.AOC_SESSION }}    # secret containing session code, see setup on how to obtain
-          year: 2021                                                                                     # The year for which stats should be retrieved
-          leaderboard: 'https://adventofcode.com/2022/leaderboard/private/view/217709.json'               # The url of the leaderboard from which the data is fetched. Typically your private leaderboard.
+          year: 2022                                                                                     # The year for which stats should be retrieved
+          leaderboard: 'https://adventofcode.com/2022/leaderboard/private/view/417093.json'               # The url of the leaderboard from which the data is fetched. Typically your private leaderboard.
           file: 'README.md'                                                                              # The file that contains the badges
           dayRegex: '(?<=https:\/\/img\.shields\.io\/badge\/day%20📅-)[0-9]+(?=-blue)'                   # Regular expression that finds the content of the day badge in your file.
           starsRegex: '(?<=https:\/\/img\.shields\.io\/badge\/stars%20⭐-)[0-9]+(?=-yellow)'             # Regular expression that finds the content of the stars badge in your file.
